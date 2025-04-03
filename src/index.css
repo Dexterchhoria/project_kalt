@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PixelDigivolve";
+  src: url("/PixelDigivolve.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Osake";
+  src: url("/Osake.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text {
+  font-family: "PixelDigivolve", sans-serif;
+}
+
+.text-osake {
+  font-family: "Osake", sans-serif;
+}
