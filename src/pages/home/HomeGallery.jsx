@@ -12,7 +12,7 @@ import gallery11 from "../../assets/11.png";
 import galleryMain from "../../assets/8.png";
 import pdf from "../../assets/broucher.pdf";
 import { Link } from "react-router-dom";
-import { ThreeDMarquee } from "../../components/ui/3d-marquee";
+
 
 const HomeGallery = () => {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
-import { BackgroundLines } from "../../components/ui/background-lines";
+import  {TextGenerateEffectDemo} from "./test_community";
+
 
 const JoinCommunity = () => {
   return (
@@ -16,9 +17,7 @@ const JoinCommunity = () => {
 
       {/* Description */}
       <p className="max-w-2xl mx-auto text text-gray-300 mb-6 text-lg">
-        Be a part of the most electrifying cultural festival! Connect, share,
-        and enjoy the vibe of Kaltarang with exclusive updates,
-        behind-the-scenes content, and special announcements.
+        {TextGenerateEffectDemo()}
       </p>
 
       {/* Join Button */}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
-import { BackgroundLines } from "../../components/ui/background-lines";
 const faqsData = [
   {
     question: "What is Kaltarang'25?",

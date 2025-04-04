@@ -7,6 +7,9 @@ import HomeGallery from "./HomeGallery";
 import JoinCommunity from "./JoinCommunity";
 import Faqs from "./Faqs";
 import  {TextGenerateEffectDemo} from "./test";
+import  {FlipWordsDemo} from "./test_flip";
+import  {ThreeDCardDemo} from "./test_abt_img";
+
 
 const FadeInSection = ({ children }) => {
   const ref = useRef(null);
@@ -103,11 +106,12 @@ const Home = () => {
   <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-black"></div>
 
   <div className="lg:w-1/2 flex justify-center relative">
-    <img
+     {/* <img
       src={aboutImg}
       alt="About Us"
       className="w-full max-w-sm md:max-w-md rounded-lg shadow-lg"
-    />
+    />  */}
+    <ThreeDCardDemo/>
     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
     <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-black via-transparent to-transparent z-10"></div>
   </div>
@@ -131,7 +135,7 @@ const Home = () => {
       <section className="bg-black text text-white py-16 px-6 md:px-16">
         <FadeInSection>
           <h2 className="text-4xl font-bold drop-shadow-[0_0_15px_rgba(255,255,255,0.8)] text-center mb-8">
-            DISCOVER MORE
+          {FlipWordsDemo()}
           </h2>
           <p className="text-center text-xl italic text-gray-300 mb-8">
             Past Events
